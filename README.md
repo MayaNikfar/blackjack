@@ -4,11 +4,12 @@ Blackjack is a card game where players aim to get a hand totaling 21 points or l
 
 
 # first view make by Figma
-![]()![Section 1](https://github.com/MayaNikfar/blackjack/assets/157966035/daae0c1b-76ea-4508-8303-dbeeb6c088b2)
+![]()![Section 1](https://github.com/MayaNikfar/blackjack.github.io/assets/157966035/0effa964-9b2b-4bec-8c9a-e9cc6797a1c9)
+
 
 
 # BlackJack webpage screenshot
-![]()![Screenshot 2024-02-16 143208](https://github.com/MayaNikfar/blackjack/assets/157966035/64ec7a49-c3e7-4347-896a-2c4d8a327fa6)
+![]() ![Screenshot 2024-02-16 143208](https://github.com/MayaNikfar/blackjack.github.io/assets/157966035/23326469-df62-49bf-b804-77c28e14dc15)
 
 # Technology used 
 * HTML
