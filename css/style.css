@@ -1,0 +1,180 @@
+*{
+   margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 5px;
+    text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 2fr 1fr 2fr;
+  padding: 0;
+  background: rgb(50,147,103);
+  background: radial-gradient(circle, rgba(50,147,103,1) 0%, rgba(17,44,38,1) 100%);
+  border-radius: 20px;
+  width: 45%; 
+  height: 60vh;
+  margin: 5% auto;
+  padding: 2% 0;
+}
+.grid-item {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#dealer-cards img{
+    height: 130px;
+    width: 90px;
+    padding: 1px;
+    margin-bottom: -30%;
+}
+#player-cards img{
+  height: 130px;
+  width: 90px;
+  padding: 1px;
+}
+#hidden{
+  border-radius: 5px;
+  margin-right: -9px;
+}
+  .grid-item {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+h2{ 
+    font-size: 30px;
+    font-size: 600;
+    color: #33be41; 
+    position: relative;
+    right: 5rem;
+    margin-top: 40%;
+}
+/* .bg-music{
+  position: absolute;
+  top: 64%;
+  left: 0;
+  margin: 0 auto;
+} */
+button{
+    width: 7rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    border: none; 
+    background-color: rgba(51, 190, 65);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+button:hover{
+background-color: rgba(22, 230, 22, 0.3);
+color: rgb(211, 44, 44);
+box-shadow: 5px 5px 5px rgba(182, 180, 178, 0.3);
+
+}
+.results:onclick{
+color: red;
+}
+.results:active{
+background-color: red;
+}
+
+h2 > span{
+    border-radius: 100%;
+    background-color: rgba(182, 180, 178, 0.3); 
+  }
+span::-webkit-outer-spin-button,
+span::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  
+}
+
+  @media screen and (max-width: 1024px) {
+    /* For tablets: */
+    .grid-container{
+      width: 90%;
+      height: 40vh;
+      margin:2% auto;
+      display: grid;
+      grid-template-columns: 1fr 6fr 1fr;
+      grid-template-rows:  4fr 1fr 4fr;
+    }
+    #dealer-cards img{
+      height: 100px;
+      width: 60px;
+      padding: 1px;
+      margin-top: 10%;
+      margin-bottom:-45%;
+  }
+  #player-cards img{
+    height: 100px;
+    width: 60px;
+    padding: 1px;
+    margin-bottom: 5%;
+}
+  button{
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 15px;
+}
+h2{
+  font-size: 20px;
+  margin-left: 90%;
+  margin-top: 55%;
+}
+  }
+
+  
+ 
+  @media screen and (max-width: 700px) {
+    /* For Mobile: */
+    .mobileCon{
+     margin:2% auto;
+     display: grid;
+     grid-template-columns:auto;
+     grid-template-rows:0% 10% 10% ;
+     height: 600px;
+     padding:10%;
+     max-width: fit-content;
+     width: 60%;
+   }
+   .mobile-gc1{
+    display:none;
+
+   }
+   .mobile-gc2{
+    justify-items: ;
+   }
+   .mobile-gc3{
+    justify-items: center;
+   }
+
+   h2 {
+    font-size: 20px;
+    margin-left: 0%;
+    margin-top: -10%;
+ }
+  /* #btns > .mobile-gc3{
+    height: 2rem;
+    position: absolute;
+    top: 70%;
+    bottom: 60%;
+    display: flex;
+   align-items: center;
+
+
+  } */
+
+ } 

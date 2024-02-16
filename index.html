@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="js/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <title>BlackJack</title>
+</head>
+
+<body>
+    <!-- <h1>BlackJack</h1> -->
+<div class="bg-music">
+    <audio controls src="https://freesound.org/people/Airwolf89/sounds/346454/" loop=""></audio>
+    <!-- <button class="sounsBtn">
+        <i class="fa fa-paly-circle-o"></i>
+        <i class="fa fa-pause-circle-o"></i>
+    </button> -->
+</div>
+    <div class="grid-container mobileCon"> 
+
+        <div class="grid-item mobile-gc1"></div>
+
+        <div id="dealer-cards" class="grid-item mobile-gc2">
+            <img id="hidden" src="./cards/BACK.png">
+        </div> 
+
+        <div class="grid-item dealer-sum mobile-gc3">
+            <h2>Dealer <span id="dealer-sum"></span></h2>
+            <span type="number" class="circle">
+        </div>
+
+        <div id="btns" class="grid-item mobile">
+            <button id="hit">Hit</button> 
+            <!-- <p id="results"></p> -->
+        </div> 
+        <div class="grid-item mobile-gc3">
+            <button id="replay">Replay</button>
+            <button id="results" class="result">Result</button>
+        </div>
+
+        <div id="btns" class="grid-item mobile">
+            <button id="stand">Stand</button>
+            <!-- <p id="results"></p> -->
+        </div> 
+        <div class="grid-item mobile-gc1"></div>
+
+        <div id="player-cards"class="grid-item player-sum"> </div>
+
+        <div id="btns" class="grid-item mobile-gc3">
+            <h2>Player <span id="player-sum"></span></h2>
+            <span type="number"class="circle">
+        </div>
+    </div>   
+</body>
+</html>
