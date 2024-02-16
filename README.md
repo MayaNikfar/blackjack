@@ -1,4 +1,4 @@
-# blackjack.github.io
+# (url) https://mayanikfar.github.io/blackjack/
 # blackjack
 Blackjack is a card game where players aim to get a hand totaling 21 points or less while beating the dealer. Number cards have their face value, face cards are 10 points, and Aces can be 1 or 11. Players decide whether to hit for another card, stand with their current hand, or use strategic options like doubling down and splitting identical cards. The objective is to outscore the dealer without exceeding 21.
 
